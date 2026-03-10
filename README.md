@@ -6,7 +6,7 @@ Simulate and test your SystemVerilog designs locally on **Apple Silicon Macs** u
 
 - macOS on Apple Silicon (M1/M2/M3/M4)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- `make` (included with Xcode Command Line Tools — run `xcode-select --install` if you don't have it, but you probably do)
+- `make` (included with Xcode Command Line Tools, run `xcode-select --install` if you don't have it, but you probably do)
 
 ## Quick Start
 
@@ -58,7 +58,7 @@ To inspect the `.vcd` waveform output from your simulation:
 1. Open **VS Code**.
 2. Go to the **Extensions** panel (`Cmd+Shift+X`).
 3. Search for **"Surfer"** and install the extension by **surfer-project**.
-4. Open the generated `.vcd` file (e.g., `testProj/build/add.vcd`) in VS Code — Surfer will automatically render the waveform viewer.
+4. Open the generated `.vcd` file (e.g., `testProj/build/add.vcd`) in VS Code. Surfer will automatically render the waveform viewer.
 5. Use the sidebar to add signals (like `A`, `B`, `C`) to the waveform display by clicking on them.
 
 <video src="docs/surfer_demo.mp4" width="600" controls></video>
