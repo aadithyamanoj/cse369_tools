@@ -22,7 +22,7 @@ cd cse369_tools
 This downloads and extracts a pre-compiled Icarus Verilog binary into the `tools/` directory. It also removes macOS quarantine flags so the binaries can run without Gatekeeper warnings.
 
 ```bash
-bash scripts/setup_icarus.sh
+./scripts/setup_icarus.sh
 ```
 
 If the setup was successful, you will see:
