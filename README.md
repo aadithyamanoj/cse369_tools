@@ -1,12 +1,12 @@
 # CSE 369 Local Verilog Simulation Tools
 
-Simulate and test your SystemVerilog designs locally on **Apple Silicon Macs** using a pre-built [Icarus Verilog](https://steveicarus.github.io/iverilog/) toolchain — no Homebrew or system-wide install required.
+Simulate and test your SystemVerilog designs locally on **Apple Silicon Macs** using a pre-built [Icarus Verilog](https://steveicarus.github.io/iverilog/) toolchain no Homebrew or system-wide install required.
 
 ## Prerequisites
 
 - macOS on Apple Silicon (M1/M2/M3/M4)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- `make` (included with Xcode Command Line Tools — run `xcode-select --install` if you don't have it)
+- `make` (included with Xcode Command Line Tools — run `xcode-select --install` if you don't have it, but you probably do)
 
 ## Quick Start
 
