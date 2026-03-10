@@ -80,7 +80,7 @@ your_lab/
 ├── src/
 │   └── your_module.sv   # Your RTL design source(s)
 └── tb/
-    └── your_module_tb.sv  # Your testbench
+    └── your_module_tb.sv  # Your testbench(es)
 ```
 
 ### Testbench Naming Convention
