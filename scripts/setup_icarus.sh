@@ -23,8 +23,8 @@ fi
 
 mkdir -p "$TOOLS_DIR"
 
-#TODO: add web hosted tar ball for precompiled binary
-TARBALL_URL=""
+#TODO: add web hosted tar ball for precompiled binary, change to course web when approved
+TARBALL_URL="https://homes.cs.washington.edu/~amanoj3/icarus-darwin-arm64.tar.gz"
 TMP_TAR="$REPO_ROOT/tools/icarus-darwin-arm64.tar.gz"
 
 echo "Downloading Icarus from Website"
