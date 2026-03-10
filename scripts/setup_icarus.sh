@@ -28,10 +28,10 @@ TARBALL_URL="https://homes.cs.washington.edu/~amanoj3/icarus-darwin-arm64.tar.gz
 TMP_TAR="$REPO_ROOT/tools/icarus-darwin-arm64.tar.gz"
 
 echo "Downloading Icarus from Website"
-curl -L "$TARBALL_URL"
+curl -L "$TARBALL_URL" -o "$TMP_TAR"
 
 echo "Extracting"
-tar -xzf "$TMP_TAR" -o "$TOOLS_DIR"
+tar -xzf "$TMP_TAR" -C "$TOOLS_DIR"
 rm -rf "$TMP_TAR"
 
 
